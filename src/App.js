@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import APIData from './APIdata';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 style={{ textAlign:'center', color:'#04AA6D', backgroundColor:'#f3f3ec'}}>Covid-19 APIData Statewise</h1>
+    <hr />
+    <APIData />
+    </>
   );
 }
 
